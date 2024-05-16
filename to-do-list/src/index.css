@@ -1,0 +1,97 @@
+
+
+body{
+ background-color: rgb(69, 69, 77);
+ 
+}
+
+.To-do-list{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h4{
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.add-button{
+  background-color:rgb(17, 186, 17);
+}
+.add-button:hover{
+  background-color: greenyellow;
+}
+
+.delete-button{
+  background-color:rgb(234, 51, 51);
+}
+.delete-button:hover{
+  background-color: rgb(199, 21, 21);
+}
+
+.edit-button{
+  background-color:rgb(62, 62, 234);
+}
+.edit-button:hover{
+  background-color: rgb(38, 38, 185);
+}
+
+.complete-button{
+  background-color: white;
+}
+
+.complete-button:hover{
+  background-color: antiquewhite;
+}
+
+input[type = "text"]{
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ol{
+  padding:0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: gray;
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button,
+.edit-button,
+.complete-button
+
+{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.To-do-list .completed .text {
+  color: red;
+  text-decoration: line-through;
+}
